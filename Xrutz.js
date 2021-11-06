@@ -998,13 +998,12 @@ dan dikenakan Sanksi Soft Block!, *MengTerima Kasih.*`
        
        case 'daftar':
        if (isUser) return reply('Kamu sudah pernah Registrasi..')
-               diptir =`*Hallo* ${pushname} ${tampilUcapan}
-Harimu baik? Bagus, perlu bantuan? Daftar dulu kak!`
+               diptir =`*Hy Anj* ${pushname} ${tampilUcapan} Daftar dulu anj🗿!`
 
 futer =`Sebelum menggunakan fitur ini, Daftar dulu ya!
 *Pencet button dibawah, Kalo gak ada langsung ketik #verify*`
 
-               buttons = [{buttonId: `${prefix}verify`,buttonText:{displayText: '⋮☰ DAFTAR BOS'},type:1}]
+               buttons = [{buttonId: `${prefix}verify`,buttonText:{displayText: '⋮☰ DAFTAR BRO🗿'},type:1}]
 
                buttonsMessage = {
                contentText: `${diptir}`,
